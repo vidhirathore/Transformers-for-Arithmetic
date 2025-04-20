@@ -1,4 +1,4 @@
-# Assignment 5: Sequence-to-Sequence Learning with Transformers for Arithmetic
+# Sequence-to-Sequence Learning with Transformers for Arithmetic
 
 This project implements an Encoder-Decoder Transformer model from scratch (using PyTorch's `nn.MultiheadAttention` but not `nn.TransformerEncoder/Decoder`) to perform basic arithmetic (addition and subtraction) on character sequences.
 
