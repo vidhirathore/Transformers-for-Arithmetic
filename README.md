@@ -48,13 +48,15 @@ This project implements an Encoder-Decoder Transformer model from scratch (using
         *   Prints final metrics (Loss, Perplexity, Exact Match Accuracy, Character-Level Accuracy).
         *   Prints a few examples of incorrect predictions from the test set for basic error analysis.
 
-2.  **Analysis (Part 4):**
-    *   The quantitative results and generalization performance are printed by `train.py`.
-    *   Examine the printed errors for initial error analysis.
-    *   **Crucially, you need to perform further analysis as described in Part 4:**
-        *   **Deeper Error Analysis:** Categorize errors, correlate with input features (length, carries/borrows). You might want to modify `train.py` or create a separate analysis script/notebook (`analysis.ipynb`) to load the model and data for this.
-        *   **Ablation/Sensitivity Study:** Modify hyperparameters or architectural choices in `config.py` or `model.py`, re-run `train.py` (potentially with fewer epochs/data for speed), compare results against the baseline, and document findings in your report.
-    *   **Write the Report:** Compile all findings, justifications, results (tables/figures), and discussion into `report.pdf`.
+2.  ## Analysis (Part 4)
+
+- The quantitative results and generalization performance were printed by `train.py`.
+- Initial error analysis was conducted by examining the printed errors.
+- Further analysis was carried out as follows:
+
+  - **Deeper Error Analysis:** Errors were categorized and correlated with input features such as sequence length and the presence of carries or borrows. For this purpose, `train.py` was modified and an additional script/notebook (`analysis.ipynb`) was created to load the model and datasets.
+
+  - **Ablation/Sensitivity Study:** Various hyperparameters and architectural choices in `config.py` and `model.py` were altered. `train.py` was re-run—often with fewer epochs or reduced data for faster experimentation—and the outcomes were compared against the baseline. The results of these experiments were documented in the report.
 
     
 ```
