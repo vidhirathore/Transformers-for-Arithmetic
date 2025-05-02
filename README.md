@@ -48,7 +48,7 @@ This project implements an Encoder-Decoder Transformer model from scratch (using
         *   Prints final metrics (Loss, Perplexity, Exact Match Accuracy, Character-Level Accuracy).
         *   Prints a few examples of incorrect predictions from the test set for basic error analysis.
 
-2.  ## Analysis (Part 4)
+2.  ## Analysis
 
 - The quantitative results and generalization performance were printed by `train.py`.
 - Initial error analysis was conducted by examining the printed errors.
