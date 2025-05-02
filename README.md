@@ -8,7 +8,7 @@ This project implements an Encoder-Decoder Transformer model from scratch (using
 *   `data_utils.py`: Handles synthetic data generation, vocabulary management, tokenization, PyTorch Dataset creation, and DataLoader setup.
 *   `model.py`: Defines the Transformer architecture components: Positional Encoding, EncoderLayer, DecoderLayer, Encoder, Decoder, and the main Seq2SeqTransformer model.
 *   `train.py`: Orchestrates the entire process: data generation (if needed), model building, training loop, evaluation, inference (greedy decoding), metric calculation (Exact Match, Char Accuracy, Perplexity), model saving, and basic analysis (test set performance, generalization test, sample error printing).
-*   `report.pdf`: (To be created by the student) Contains the detailed analysis, results, discussion, ablation studies, etc., as required by Part 4 of the assignment.
+*   `report.pdf`: Contains the detailed analysis, results, discussion, ablation studies, etc.
 *   `models/`: Directory where the trained model weights (`transformer_arithmetic.pt`) will be saved.
 *   `data/`: Directory where the generated datasets (`train.json`, `val.json`, `test.json`, `gen_test.json`) will be saved.
 *   `README.md`: This file.
